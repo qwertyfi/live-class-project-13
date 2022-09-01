@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: #7030CC;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+   
+    
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list-item{
+    cursor: pointer;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    color: #fff;
+    background-color: #1BBCEF;
+    padding: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.nav-btn:hover{
+    background-color: #fff;
+    color: #1BBCEF;
+    transition: .5s;
+}
+.nav-list-item{
+    margin-right: 40px;
+    font-size: 20px;
+    color: #fff;
+}
+.item-active{
+    color: rgb(0, 176, 245);
+    text-decoration: underline rgb(250, 175, 187) 1px ;
+}
+.header-section{
+display: flex;
+justify-content: space-around;
+align-items: center;    
+}
+.header-content h1{
+    font-size: 60px ;
+    color: #fff;
+}
+.header-content p{
+    color: #fff;
+    font-size: 20px;
+}
+.header-image img{
+    height: 80vh;
+}
+.header-content{
+    width: 27%;
+}
+
+
+.section-image{
+    width: 50%;
+}
+
+.facilities{
+    display: flex;
+    align-items:center;
+}
+.specifications{}
+
+.specifications h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.specification{
+    display: flex;
+    align-items:baseline;
+    margin-bottom: 40px;;
+}
+.bullet-heading p{
+    margin-top: 20px;
+
+}
+.bullet-heading h2{
+    margin-left: 10px;
+}
+
+.service-heading{
+    text-align: center;
+    margin: 40px;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: center;
+}
+
+.service-card{
+ 
+ width:25vh;
+ height: 40vh;
+ box-shadow: 0px 0px 5px rgb(22, 22, 22, .2);
+ margin: 40px 20px 20px 20px;
+ border-radius: 10px;
+
+}
+.service-card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.image img{
+    
+    
+    
+    margin: 30px 0px 30px 0px;
+}
+ .image{
+    text-align: center;
+ }
+ .img-bg{
+   
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+
+ }
+ .code{
+    background-color: #E4CAC5;
+
+ }
+ .analytics{
+    background-color: #EBE9FB;
+ }
+
+.security{
+    background-color: #BCD9BA;
+}
+.support{
+    background-color: #C49AFF;
+}
+.content-active{
+    background-color: #9638D9;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px ;
+    padding: 5px 0 5px 0;
+    color: #fff;
+}
+.content{
+   
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px ;
+    padding: 5px 0 5px 0;
+    
+    
+}
