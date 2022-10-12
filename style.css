@@ -61,34 +61,42 @@ nav{
 }
 .header-section{
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;    
 }
 .header-content h1{
     font-size: 60px ;
     color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .header-content p{
     color: #fff;
     font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .header-image img{
-    height: 80vh;
+    height: auto;
+    width:500px;
 }
-.header-content{
-    width: 27%;
-}
+
 
 
 .section-image{
-    width: 50%;
+    width: 600px;
 }
 
 .facilities{
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
 }
-.specifications{}
+.specifications{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .specifications h1{
     font-size: 40px;
@@ -114,14 +122,15 @@ align-items: center;
 
 .service-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
    
     align-items: center;
 }
 
 .service-card{
  
- width:25vh;
+ width:200px;
  height: 40vh;
  box-shadow: 0px 0px 5px rgb(22, 22, 22, .2);
  margin: 40px 20px 20px 20px;
