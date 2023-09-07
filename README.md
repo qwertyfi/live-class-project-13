@@ -11,7 +11,7 @@ I'm Wasit Ali and this is my 13th project on HTML and CSS.
 
 ![](./assets/2022-10-14-17-17-31.png)
 
-🚀 [Live Preview](https://remarkable-moxie-b114d9.netlify.app/)
+🚀 [Live Preview](https://live-class-project-13-pi.vercel.app/)
 
 ## 🛠️ What I have learned in this project?
 
